@@ -1,0 +1,23 @@
+{
+    "name": "hello-world-frontend",
+    "version": "1.0.0",
+    "description": "Frontend for Hello World application",
+    "scripts": {
+        "dev": "node src/app.js",
+        "start": "node src/app.js",
+        "lint": "eslint .",
+        "test": "jest"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "cors": "^2.8.5",
+        "helmet": "^4.6.0",
+        "compression": "^1.7.4",
+        "winston": "^3.3.3",
+        "dotenv": "^10.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.32.0",
+        "jest": "^27.0.6"
+    }
+}
