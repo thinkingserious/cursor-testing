@@ -16,6 +16,10 @@ This project is a full-stack "Hello World" application with a Node.js/Express ba
 - Environment configuration
 - Basic SEO optimization
 
+## Project Structure
+
+For a detailed overview of the project's directory structure and file organization, please refer to our [Project Structure Documentation](/docs/structure.md). This document provides insights into how the codebase is organized, making it easier for developers to navigate and understand the project layout.
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
@@ -146,6 +150,19 @@ In the frontend directory:
    ```bash
    docker compose -f docker-compose.prod.yml up -d
    ```
+
+## Accessing the Application
+
+After deploying the application, you can access it through your web browser:
+
+1. Open your preferred web browser (e.g., Chrome, Firefox, Safari).
+2. Navigate to `http://localhost:3000` (or the appropriate URL if you've deployed to a different host).
+
+This will take you to the frontend of the application where you can interact with the user interface.
+
+## API Access
+
+For information on how to interact with the API directly, please refer to our [API documentation](docs/api.md). This document provides detailed examples of API usage, including how to make requests using cURL for various endpoints such as users, products, and orders.
 
 ## Contributing
 
