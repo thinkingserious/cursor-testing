@@ -27,10 +27,10 @@ Before you begin, ensure you have the following installed:
 
 ### Clone the repository
 
-bash
-git clone https://github.com/yourusername/full-stack-hello-world.git
-cd full-stack-hello-world
-
+```bash
+git clone https://github.com/thinkingserious/cursor-testing.git
+cd cursor-testing
+```
 
 ### Backend Setup
 
