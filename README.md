@@ -100,6 +100,22 @@ To run the entire application using Docker:
 
    The backend will be available at `http://localhost:3001` and the frontend at `http://localhost:3000`.
 
+3. To stop the containers:
+   - If running in the foreground (with output in terminal):
+     Press `Ctrl+C`
+   
+   - If running in detached mode (with -d flag):
+     ```bash
+     docker compose down
+     ```
+
+4. To remove all containers and networks:
+   ```bash
+   docker compose down --volumes
+   ```
+
+Note: Using `docker compose down --volumes` will remove all containers, networks, and volumes associated with this project. Use this when you want to completely clean up the Docker resources.
+
 ## Testing
 
 ### Backend Tests
