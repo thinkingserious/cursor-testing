@@ -136,21 +136,6 @@ In the frontend directory:
    npm run lint
    ```
 
-## Production Deployment
-
-1. Update the `.env` files in both backend and frontend directories with production values.
-
-2. Build the frontend:
-   ```bash
-   cd frontend
-   npm run build
-   ```
-
-3. Use the Docker Compose file to deploy both services:
-   ```bash
-   docker compose -f docker-compose.prod.yml up -d
-   ```
-
 ## Accessing the Application
 
 After deploying the application, you can access it through your web browser:
